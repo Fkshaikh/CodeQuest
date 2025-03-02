@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles below */
+.prose h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
+
+.prose h2 {
+  margin-top: 1.25rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.prose h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+.prose p {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose ul {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.prose ol {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+}
+
+.prose pre {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  overflow: auto;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+  padding: 0.75rem;
+}
+
+.prose code {
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.prose pre code {
+  background-color: transparent;
+  padding: 0px;
+} 
